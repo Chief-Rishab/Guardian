@@ -3,8 +3,17 @@ module.exports = {
     'introduction',
     {
       type: "category",
+      label: "Getting Started",
+      items: [
+        "Getting Started/Installation",
+        "Getting Started/Configuration",
+      ],
+    },
+    {
+      type: "category",
       label: "Guides",
       items: [
+        "guides/introduction",
         "guides/overview",
         "guides/cli",
         "guides/managing-policies",

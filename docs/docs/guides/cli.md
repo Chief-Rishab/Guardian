@@ -9,23 +9,32 @@ Guardian CLI supports many commands. To get a list of all the commands, follow t
 Enter the following code into the terminal:
 
 ```text
-$ guardian
+$ guardian or $ guardian --help
 ```
 
-The output is the following:
+List of all availiable commands are as follows:
 
 ```text
-Available Commands:
-  appeals     manage appeals
-  config      manage guardian CLI configuration
+CORE COMMANDS
+  appeal      Manage appeals
+  policy      Manage policies
+  provider    Manage providers
+  resource    Manage resources
+
+ADDITIONAL COMMANDS
+  completion  Generate shell completion scripts
+  config      Manage client configurations
   help        Help about any command
-  migrate     Migrate database schema
-  policies    manage policies
-  providers   manage providers
-  resources   manage resources
-  serve       Run server
+  job         Manage jobs
+  reference   Show command reference
+  server      Server management
+  version     Print version information
 ```
 
+To know the usage of any of the core commands use the following syntax:
+```text
+$ guardian <command> <subcommand> --help
+```
 ## Config command
 
 Config command in Guardain's CLI is used to configure the command line tool. Following are a few examples of doing the same.
